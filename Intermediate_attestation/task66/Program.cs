@@ -19,9 +19,4 @@ if(N < 1)
     Console.WriteLine("You entered non-natural number.");
     return;
 }
-if(N-M > 10000)
-{
-    Console.WriteLine($"Difference beetween {N} and {M} too large for this task.");
-    return;
-}
 Console.WriteLine($"The sum of the numbers from {M} to {N} {SumNumbersFromMtoN(M, N)}");
